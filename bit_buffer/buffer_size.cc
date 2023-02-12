@@ -5,6 +5,9 @@ using namespace std;
 
 int32_t buffer_size (int32_t W, int32_t N)
 {
+
+  return (N+W -1)/W;
+
   /////////////////////////////
   // IMPLEMENT FUNCTION HERE //
   /////////////////////////////

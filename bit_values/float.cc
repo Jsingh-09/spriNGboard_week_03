@@ -6,7 +6,9 @@ using namespace std;
 int main ()
 {
   uint32_t x = 0;
+  
 
+  x |= 0b1.101 x 2^-5;
   //////////////////////////
   // MANIPULATE BITS HERE //
   //////////////////////////
