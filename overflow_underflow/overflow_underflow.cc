@@ -1,10 +1,14 @@
 #include <iostream>
+#include <limits.h>
 
 using namespace std;
 
 int main ()
 {
   {
+
+    signed long s = 0;
+    unsigned long  u = 0;
     ///////////////////////////////////
     // CREATE SIGNED,UNSIGNED 32-BIT //
     // INTEGERS NAMED s,u AND        //
@@ -16,6 +20,8 @@ int main ()
     cout << "  signed:   " << s << endl;
     cout << "  unsigned: " << u << endl;
 
+    s--;
+    u--;
     ///////////////////
     // DECREMENT s,u //
     ///////////////////
@@ -27,6 +33,9 @@ int main ()
   }
 
   {
+    signed short s = INT16_MAX;
+    unsigned short u = INT16_MAX;
+
     ///////////////////////////////////
     // CREATE SIGNED,UNSIGNED 16-BIT //
     // INTEGERS NAMED s,u AND        //
@@ -37,6 +46,9 @@ int main ()
     cout << "16-bit before increment:" << endl;
     cout << "  signed:   " << s << endl;
     cout << "  unsigned: " << u << endl;
+
+    s++;
+    u++;
 
     ////////////////////////
     // INCREMENT s,u HERE //

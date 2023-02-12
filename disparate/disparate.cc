@@ -6,6 +6,10 @@ using namespace std;
 int main ()
 {
   {
+
+    int32_t big = 100000000;
+    int32_t small = 1;
+    int32_t sum = big + small; 
     /////////////////////////////////
     // CREATE THREE int32_t VALUES //
     // (big, small, sum)           //
@@ -19,6 +23,9 @@ int main ()
   }
 
   {
+    float big = 100000000;
+    float small = 1;
+    float sum = big + small;
     ///////////////////////////////
     // CREATE THREE float VALUES //
     // (big, small, sum)         //
